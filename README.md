@@ -7,7 +7,7 @@ This application supports the [Getting Started with Go on Heroku](https://devcen
 
 ## Running Locally
 
-Make sure you have [Go](http://golang.org/doc/install) version 1.12 or newer and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
+Make sure you have [Go](http://golang.org/doc/install) version 1.17 or newer and the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) installed.
 
 ```sh
 $ git clone https://github.com/heroku/go-getting-started.git
@@ -32,7 +32,7 @@ Your app should now be running on [localhost:5000](http://localhost:5000/).
 
 ```sh
 $ heroku create
-$ git push heroku master
+$ git push heroku main
 $ heroku open
 ```
 
